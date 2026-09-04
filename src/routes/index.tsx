@@ -21,10 +21,10 @@ export const Route = createFileRoute("/")({
 });
 
 const solutions = [
-  { icon: TrendingUp, title: "Sistema de Gestão", text: "Vendas, estoque, financeiro e operações em um único sistema." },
-  { icon: Boxes, title: "Automação Comercial", text: "Atendimento mais rápido, eficiente e totalmente integrado." },
   { icon: CreditCard, title: "TEF", text: "Pagamentos conectados diretamente ao seu sistema de vendas." },
   { icon: QrCode, title: "PIX integrado", text: "Recebimentos via PIX com agilidade, segurança e conciliação." },
+  { icon: Boxes, title: "Automação Comercial", text: "Atendimento mais rápido, eficiente e totalmente integrado." },
+  { icon: TrendingUp, title: "Sistema de Gestão", text: "Vendas, estoque, financeiro e operações em um único sistema." },
 ];
 
 const tefItems = ["Multiadquirente", "Diversas bandeiras", "PIX", "QR Code", "Conciliação", "Integração com ERP"];
