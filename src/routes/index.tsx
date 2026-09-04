@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowRight, BadgeCheck, Boxes, Building2, Check, Clock3, CreditCard, FileBadge2, Mail, MapPin, Phone, QrCode, ShieldCheck, TrendingUp } from "lucide-react";
+import { BadgeCheck, Boxes, Building2, Check, Clock3, CreditCard, FileBadge2, Mail, MapPin, Phone, QrCode, ShieldCheck, TrendingUp } from "lucide-react";
 
 import heroImage from "@/assets/tefpix-hero.jpg";
 import teamImage from "@/assets/tefpix-team.jpg";
