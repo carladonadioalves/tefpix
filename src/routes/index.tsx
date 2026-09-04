@@ -34,7 +34,7 @@ function Index() {
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <main>
-        <section id="inicio" className="relative flex min-h-[720px] items-center overflow-hidden pt-64 text-navy-foreground md:min-h-[760px]">
+        <section id="inicio" className="relative flex min-h-[720px] items-center overflow-hidden pt-[230px] text-navy-foreground md:min-h-[760px]">
           <img src={heroImage} alt="Pagamento integrado em um ponto de venda" className="absolute inset-0 h-full w-full object-cover object-center" width={1920} height={1088} fetchPriority="high" />
           <div className="absolute inset-0 bg-navy/80 md:bg-navy/55" />
           <div className="relative mx-auto w-full max-w-7xl px-5 py-24 sm:px-8">
