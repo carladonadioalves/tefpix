@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 
-import logoAsset from "@/assets/tefpix-logo.png.asset.json";
+import iconAsset from "@/assets/tefpix-icon.png";
 import { Button } from "@/components/ui/button";
 
 const links = [
@@ -18,8 +18,9 @@ export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/70 bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
-        <Link to="/" aria-label="TEFPIX — página inicial" className="shrink-0">
-          <img src={logoAsset.url} alt="TEFPIX" className="h-14 w-auto object-contain" width={1254} height={1254} />
+        <Link to="/" aria-label="TEFPIX — página inicial" className="flex shrink-0 items-center gap-2.5">
+          <img src={iconAsset} alt="" className="h-11 w-auto object-contain" width={512} height={512} />
+          <span className="text-2xl font-extrabold tracking-tight text-navy">TEFPIX</span>
         </Link>
         <nav aria-label="Navegação principal" className="hidden items-center gap-8 md:flex">
           {links.map(([label, href]) => <a key={href} href={href} className="text-sm font-semibold text-foreground/75 transition-colors hover:text-primary">{label}</a>)}
