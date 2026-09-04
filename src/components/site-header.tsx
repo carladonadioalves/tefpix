@@ -17,9 +17,9 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/70 bg-background/95 backdrop-blur">
-      <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-5 sm:px-8">
+      <div className="mx-auto flex h-[220px] max-w-7xl items-center justify-between px-5 sm:px-8">
         <Link to="/" aria-label="TEFPIX — página inicial" className="flex shrink-0 items-center">
-          <img src={logoAsset.url} alt="TEFPIX" className="h-[94px] w-auto object-contain" width={1200} height={400} />
+          <img src={logoAsset.url} alt="TEFPIX" className="h-[200px] w-auto object-contain" width={1200} height={400} />
         </Link>
         <nav aria-label="Navegação principal" className="hidden items-center gap-8 md:flex">
           {links.map(([label, href]) => <a key={href} href={href} className="text-sm font-semibold text-foreground/75 transition-colors hover:text-primary">{label}</a>)}
