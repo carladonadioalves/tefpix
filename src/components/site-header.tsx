@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 
-import iconAsset from "@/assets/tefpix-icon.png";
+import logoAsset from "@/assets/tefpix-logo-v2.png.asset.json";
 import { Button } from "@/components/ui/button";
 
 const links = [
